@@ -1,4 +1,12 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+//import Counter from './components/Counter.vue'
 
-createApp(App).mount('#app')
+const Counter = {
+  data() {
+    return {
+      counter: 0
+    }
+  }
+}
+
+createApp(Counter).mount('#counter')

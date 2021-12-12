@@ -1,13 +1,21 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Counter counter="0"/>
 </template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+import Counter from './components/Counter.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld,
+    Counter
+  }
+}
+</script>
 
 <style>
 #app {
@@ -17,5 +25,9 @@ import HelloWorld from './components/HelloWorld.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: linear-gradient(90deg, hsla(356, 76%, 50%, 1) 0%, hsla(104, 63%, 36%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(356, 76%, 50%, 1) 0%, hsla(104, 63%, 36%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(356, 76%, 50%, 1) 0%, hsla(104, 63%, 36%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E01F2D", endColorstr="#409422", GradientType=1 );
 }
 </style>
