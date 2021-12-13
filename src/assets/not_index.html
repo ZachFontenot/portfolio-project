@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fintech Startup</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- I'm not sure about this meta tag I snagged it from some boilerplate -->
+    <meta name="Description" content="" />
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="menu round">
+      <header>
+	<h1>Fintech Startup</h1>
+	<nav>
+	  <a href="index.html">Main Page</a>
+          <a href="audio.html">A Track</a>
+          <a href="else.html">About Me</a>
+          <a href="https://github.com/ZachFontenot">My Github</a>
+	</nav>
+      </header>
+    </div>
+    <main>
+      <div class="left-item">
+	<article>
+          <h2>A Saint</h2>
+          <figcaption>
+            I like Saint Bartholomew. Mostly because he's flayed and
+            I find that pretty fun.
+          </figcaption>
+          <img src="bartholomew.jpeg" alt="An icon of the flayed St Bartholomew">
+	</article>
+      </div>
+      <figure>
+        <h2>A Code Example</h2>
+        <aside>Here is some Clojure code using the framework Fulcro</aside>
+        <pre>
+          <code>
+(defsc Root [this _]
+  {:query []
+   :initial-state {}}
+  (dom/div {}
+           "Hello World"))
+          </code>
+        </pre>
+      </figure>
+      <figure>
+        <p>Some Elixir</p>
+        <pre>
+          <code>
+defmodule Elixir.Example do
+  
+  def elixir_render_html(name) do
+    ~E"""
+    &lt;div> #{name} &lt;/div>
+    """
+  end
+end
+          </code>
+        </pre>
+      </figure>
+    </main>
+    <footer>
+      Stuff and Things
+    </footer>
+  </body>
+</html>
