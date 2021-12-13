@@ -1,21 +1,20 @@
 <template>
-  <div class="counter">
+  <div>
     Counter: {{ counter }}
+  </div>
 </template>
 
 <script>
-  const Counter = {
+export default {
     data() {
       return {
         counter: 0
       }
+    },
+    mounted() {
+      setInterval(() => {
+	this.counter++
+      }, 1000)
     }
-  }
-  
-  export default {
-  name: 'Counter',
-  props: {
-    counter: Number
-  }
 }
 </script>
