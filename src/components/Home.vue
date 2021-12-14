@@ -14,7 +14,7 @@
     </p>
   </div>
   <div>
-    <img src="src/assets/goblin.jpeg">
+    <img src="../assets/goblin.jpeg">
   </div>
 </template>
 
