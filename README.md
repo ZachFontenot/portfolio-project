@@ -27,4 +27,4 @@ yarn dev
 I probably have dumb stuff laying around taking up valuable SPACE.
 I also probably could've use Vue to more effect, but c'est la vie.
 
-netlify url: https://app.netlify.com/sites/naughty-hugle-f1f896/overview
+netlify url: https://naughty-hugle-f1f896.netlify.app/
