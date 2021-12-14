@@ -1,5 +1,5 @@
 <template>
-  <embed src="src/assets/zfresume.pdf" type="application/pdf">
+  <embed src="zfresume.pdf" type="application/pdf">
 </template>
 
 <script>
