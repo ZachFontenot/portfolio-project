@@ -3,9 +3,9 @@
     <header>
       <h1>Mostly Mediocre</h1>
       <nav>
-	<!-- <a href="../../public/not_index.html">Main Page</a> -->
-        <!-- <a href="../assets/else.html">About Me</a> -->
-	<!-- <a href="audio.html">A Track</a> -->
+	<router-link to="/">Main Page</router-link>
+        <router-link to="/about">About Me</router-link>
+	<router-link to="/code">Some Thoughts</router-link>
         <!-- <a href="https://github.com/ZachFontenot">My Github</a> -->
       </nav>
     </header>

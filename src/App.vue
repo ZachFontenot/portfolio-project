@@ -1,18 +1,7 @@
 <template>
-  <Header/>
-  <div>
-    <h2>Hi, Welcome to my Porjest</h2>
-    <p>
-      In it, you will find things. Here, some Ulysses
-    </p>
-    <p>
-      —But a lovely mummer! he murmured to himself. Kinch, the loveliest
-mummer of them all!
-    </p>
-    <p>
-He shaved evenly and with care, in silence, seriously.
-    </p>
-  </div>
+
+<Header/>
+  <router-view></router-view>
 </template>
 
 <script>
