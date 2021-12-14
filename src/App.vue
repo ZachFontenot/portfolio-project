@@ -21,12 +21,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #e0cf9f;
   margin-top: 60px;
   margin: 30px;
 }
 
 html {
-    background-color: #ffecd1;
+    background-color: #383838;
 }
 </style>

@@ -13,6 +13,9 @@
       He shaved evenly and with care, in silence, seriously.
     </p>
   </div>
+  <div>
+    <img src="src/assets/goblin.jpeg">
+  </div>
 </template>
 
 <script>

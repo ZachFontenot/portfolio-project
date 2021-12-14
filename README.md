@@ -15,10 +15,14 @@ yarn serve
 yarn build
 ```
 
-### Lints and fixes files
+I ended up using Vite, because I didn't like the default settings for Webpack
+and Eslint and all that Jazz.
+
+Running is still just
 ```
-yarn lint
+yarn
+yarn dev
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I probably have dumb stuff laying around taking up valuable SPACE.
+I also probably could've use Vue to more effect, but c'est la vie.

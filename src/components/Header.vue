@@ -5,8 +5,10 @@
       <nav>
 	<router-link to="/">Main Page</router-link>
         <router-link to="/about">About Me</router-link>
-	<router-link to="/code">Some Thoughts</router-link>
-        <!-- <a href="https://github.com/ZachFontenot">My Github</a> -->
+	<router-link to="/code">Stuff about Erlang</router-link>
+	<router-link to="/zachresume">My Resume</router-link>
+	<router-link to="/buttons?">Buttons?</router-link>
+        <a href="https://github.com/ZachFontenot">My Github</a>
       </nav>
     </header>
   </div>
@@ -20,11 +22,12 @@
 
 <style scoped>
 div {
-  color: #15616d;
+  color: #7cb8bb;
   border-style: solid;
   border-width: medium;
   border-color: black;
   margin: 30px;
+  text-align: center;
 }
 
 a {
@@ -38,8 +41,12 @@ a:hover {
 }
 
 nav {
-  background-color: #ff9633;
+  background-color: #dca3a3;
   height: 30px;
   padding-top: 15px;
+}
+
+.router-link-active {
+    color: #f43
 }
 </style>
